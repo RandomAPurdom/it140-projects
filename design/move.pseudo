@@ -9,17 +9,37 @@
 
 # TODO 1: Identify the information the movement process needs.
 # Consider the player's current room and movement command.
+WHILE game is not over:
+  DISPLAY current room
+  PROMPT player: "ENTER a direction (north, south, east, west): "
 
 # TODO 2: Prompt for and receive the player's movement command.
+  GET user_input
 
 # TODO 3: Validate whether the requested movement is possible from the
 # current room. Show the decision clearly.
+  IF user_input is a valid direction AND that direction exists from current room:
+    UPDATE current room to the connected room
 
 # TODO 4: Describe what happens when the movement command is valid.
 # Include the room update and player output.
+    DISPLAY "You move into the [new room name]."
+  ELSE:
+    DISPLAY "The cathedral walls block your path."
 
 # TODO 5: Describe what happens when the movement command is invalid.
 # Include the output the player should receive.
+   IF user_input is not one of the valid directions:
+    DISPLAY "That direction echoes strangely...but leads nowhere."
+    CONTINUE loop
 
 # TODO 6: Show how movement fits into repeated gameplay.
 # The final game continues accepting commands until a required ending occurs.
+  IF current room is Dracula's chamber AND player has NOT collected all relics doused in holy water:
+    DISPLAY "Dracula descends upon you and with a hiss. You have lost!:
+    END game
+
+  IF current room  is Dracula's chamber AND player HAS collected all relics doused in holy water:
+    DISPLAY "Armed with all relics doused in holy water, you exile Dracula back into the abyss. You win!"
+    END game
+END WHILE
