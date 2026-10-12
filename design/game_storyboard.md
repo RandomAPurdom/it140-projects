@@ -11,21 +11,29 @@ TODO: Name and briefly describe your game's theme.
 
 **Storyline:**
 
-TODO: In one short paragraph, explain the setting, the player's goal, the items
-the player must gather, and the threat created by the villain.
+TODO: Your adventure takes place on Halloween night, inside the gothic cathedral of
+Notre Dame, where strange shadows dance across ancient stone and the bells toll
+without a hand to pull them. You, a paranormal investigator, enter the cathedral
+after several reports of supernatural disturbances. Once inside, you discover that 
+Count Dracula has awakened beneath the cathedral and seeks to reclaim six cursed 
+relics hidden throughout Notre Dame. If he gathers them first, the cathedral and Paris, 
+will fall into eternal night. You must explore the cathdral's haunted rooms, collect 
+all six relics, find and douse them in holy water, and avoid Dracula until your collection is complete.
+Only then can you confront him and seal him away again.
 
 ## Rooms
 
 Project One requires a minimum of eight rooms.
 
-1. TODO: Start room
-2. TODO: Room
-3. TODO: Room
-4. TODO: Room
-5. TODO: Room
-6. TODO: Room
-7. TODO: Room
-8. TODO: Villain room
+1. TODO: Narthex Entrance (Start room - no item)
+2. TODO: Bell Tower Stairwell
+3. TODO: Gargoyle Gallery
+4. TODO: Crossing
+5. TODO: North Transept
+6. TODO: South Transept
+7. TODO: Choir Loft
+8. TODO: Crypt of Saints
+9. TODO: Chamber of the Undead (Villain Room - Dracula - no item)
 
 Add more rooms if your design needs them.
 
@@ -34,19 +42,20 @@ Add more rooms if your design needs them.
 With the minimum eight-room design, Project One requires at least six items.
 Every room except the start room and villain room must contain one item.
 
-1. TODO: Item
-2. TODO: Item
-3. TODO: Item
-4. TODO: Item
-5. TODO: Item
-6. TODO: Item
+1. TODO: Cursed Rosary
+2. TODO: Silver Chalice
+3. TODO: Sanctified Candle
+4. TODO: Gargoyle Fang
+5. TODO: Bell of Dawn
+6. TODO: Holy Manuscript
+7. TODO: Holy Water Vial
 
 If you add rooms beyond the minimum, add an item for every additional room
 except the start room and villain room.
 
 ## Villain
 
-TODO: Identify and briefly describe the villain.
+TODO: Count Dracula, risen from the catacombs beneath Notre Dame, empowered by Halloween night and hunting for the cursed relics.
 
 ## Storyboard and Map Check
 
