@@ -11,20 +11,32 @@ START get_item
 
     # TODO 1: Identify the information the get-item process needs.
     # Consider the current room, item in that room, and player's inventory.
+    IF current room contains no item:
+        DISPLAY "There is no relic here, only shadows."
 
     # TODO 2: Prompt for and receive the player's get-item command.
+    ELSE:
+        PROMPT player: "Enter the relic name to claim it: "
+        GET user_input
 
     # TODO 3: Validate whether the requested item is available in the current
     # room. Show the decision clearly.
+        IF user_input matches the relic in the current room:
 
     # TODO 4: Describe what happens when the item request is valid.
     # Include the inventory update and player output.
+            ADD relic to inventory
+            REMOVE relic from room
+            DISPLAY "You claim the [relic name]. Its aura warms the air."
 
     # TODO 5: Describe what happens when the item request is invalid.
     # Include the output the player should receive.
+        ELSE:
+            DISPLAY "That relic is not present in this room."
 
     # TODO 6: Show how the process returns to or continues the larger gameplay
     # loop after the command is handled.
+        RETURN to main WHILE loop
 
 END get_item
 
