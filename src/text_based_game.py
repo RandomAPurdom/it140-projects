@@ -243,5 +243,5 @@ while True:
     else:
         print("You hear strange echoes that lead nowhere. INVALID COMMAND!")
 
-        # Separate each area for legibility
+    # Separate each area for legibility
     print("-" * 40)
